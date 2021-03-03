@@ -302,7 +302,7 @@ def billsum_transformer(param_overrides):
   return transformer_params(
       {
           "train_pattern": "tfds:wikipedia/20190301.en",
-          "dev_pattern": "tfds_transformed:billsum-validation",
+          "dev_pattern": "tfds:wikipedia/20190301.en",
           "test_pattern": "tfds:wikipedia/20190301.en",
           "max_input_len": 1024,
           "max_output_len": 256,
